@@ -9,7 +9,9 @@
 
 ## Terminal
 
-![](https://raw.githubusercontent.com/matias-pierobon/dotfiles/macos/images/console1.png)
+!![](https://raw.githubusercontent.com/matias-pierobon/dotfiles/macos/images/console1.png)
+
+![](https://raw.githubusercontent.com/matias-pierobon/dotfiles/macos/images/console2.png)
 
 ![](https://raw.githubusercontent.com/matias-pierobon/dotfiles/macos/images/console-config1.png)
 
