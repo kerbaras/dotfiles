@@ -1,0 +1,33 @@
+!URxvt settings
+URxvt.font: xft:Hack:size=10
+URxvt.scrollBar: false
+URvxt.depth: 32
+!
+!URxvt colors
+URxvt*background: #3c3c3c
+URxvt*foreground: #FFFFFF
+URvxt*cursorColor: #D3D0C8
+URvxt*hightlightColor: #48BF84 
+
+URxvt*color0:                         #1B2B34
+URxvt*color1:                         #EC5f67
+URxvt*color2:                         #99C794
+URxvt*color3:                         #FAC863
+URxvt*color4:                         #6699CC
+URxvt*color5:                         #C594C5
+URxvt*color6:                         #5FB3B3
+URxvt*color7:                         #C0C5CE
+URxvt*color8:                         #65737E
+URxvt*color9:                         #EC5f67
+URxvt*color10:                        #99C794
+URxvt*color11:                        #FAC863
+URxvt*color12:                        #6699CC
+URxvt*color13:                        #C594C5
+URxvt*color14:                        #5FB3B3
+URxvt*color15:                        #D8DEE9
+URxvt*color16:                        #f99157
+URxvt*color17:                        #d27b53
+URxvt*color18:                        #393939
+URxvt*color19:                        #515151
+URxvt*color20:                        #a09f93
+URxvt*color21:                        #e8e6df
