@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --bg-tile '~/.wallpaper' 
+feh --bg-tile "$HOME/.wallpaper"
