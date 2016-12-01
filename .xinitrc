@@ -35,12 +35,6 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-# enable use of xset to manipulate keyboard LEDs
-xkbcomp "$DISPLAY" /tmp/xkbconf
-sed 's/\!allowExplicit/allowExplicit/' </tmp/xkbconf >/tmp/xkbconfnew
-xkbcomp /tmp/xkbconfnew "$DISPLAY"
-rm -f '/tmp/xkbconf' '/tmp/xkbconfnew'
-
 # keyboard shortcuts for bspwm
 sxhkd -f 100 &
 
@@ -51,9 +45,6 @@ sxhkd -f 100 &
 
 # desktop wallpaper
 sh ~/.local/bin/fehbg &
-
-# hide x11 cursor
-unclutter &
 
 # urxvt daemon
 urxvtd -q -f -o &
