@@ -25,6 +25,7 @@ bspc rule -a mplayer2 floating=on
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
+ setxkbmap es &
  ~/.local/bin/panel &
  urxvt &
-  compton -c &
+ compton -c &

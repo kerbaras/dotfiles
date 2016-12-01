@@ -46,8 +46,14 @@ sxhkd -f 100 &
 # desktop wallpaper
 sh ~/.local/bin/fehbg &
 
+# hide x11 cursor
+#unclutter &
+
 # urxvt daemon
 urxvtd -q -f -o &
+
+# sxhkd for keyboard listening
+sxhkd -c ~/.config/sxhkd/sxhkdrc &
 
 # window manager
 exec bspwm
