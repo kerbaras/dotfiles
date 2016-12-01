@@ -44,7 +44,7 @@ sxhkd -f 100 &
 # redshift -r -l 35.22:-80.84 &
 
 # desktop wallpaper
-sh ~/.local/bin/fehbg &
+zsh ~/.local/bin/fehbg &
 
 # hide x11 cursor
 #unclutter &

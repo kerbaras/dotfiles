@@ -27,5 +27,5 @@ bspc rule -a Screenkey manage=off
 
  setxkbmap es &
  ~/.local/bin/panel &
- urxvt &
+# urxvt &
  compton -c &
