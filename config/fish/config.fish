@@ -1,0 +1,6 @@
+set -g c0 (set_color fabd2f)
+set -g c1 (set_color 83a598)
+set -g c2 (set_color d3869b)
+set -g c3 (set_color 8ec07c)
+set -g c4 (set_color ebdbb2)
+set -g ce (set_color fb4934)
