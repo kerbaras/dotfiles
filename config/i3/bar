@@ -1,0 +1,6 @@
+#!/bin/bash
+
+killall admiral 
+killall lemonbar 
+
+admiral | lemonbar -gx34  -f "Lato-10" -f "FontAwesome-11" -B "#ff282828" -F "#ffebdbb2"  -u 3 -p # | bash
