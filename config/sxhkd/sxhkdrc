@@ -123,7 +123,8 @@ super + Return
 	urxvt
 
 super + space
-	dmenu_run -nb '#252527' -sb '#404E5E' -fn 'Cantarell-10' -h 46 -hist ~/.dmenu_hist
+	rofi -show run
+#	dmenu_run -nb '#252527' -sb '#404E5E' -fn 'Cantarell-10' -h 46 -hist ~/.dmenu_hist
 
 # make sxhkd reload its configuration files:
 super + Escape
