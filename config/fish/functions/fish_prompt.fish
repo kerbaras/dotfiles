@@ -1,1 +1,1 @@
-/Users/matias/.local/share/omf/themes/simple-ass-prompt/fish_prompt.fish
+/home/matias/.local/share/omf/themes/nai/fish_prompt.fish

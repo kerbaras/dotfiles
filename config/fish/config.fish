@@ -1,11 +1,11 @@
 # Path to Oh My Fish install.
-set -gx OMF_PATH "/Users/matias/.local/share/omf"
+#set -gx OMF_PATH "$HOME/.local/share/omf"
 
 # Customize Oh My Fish configuration path.
-#set -gx OMF_CONFIG "/Users/matias/.config/omf"
+#set -gx OMF_CONFIG "$HOME/.config/omf"
 
 # Load oh-my-fish configuration.
-source $OMF_PATH/init.fish
+#source $OMF_PATH/init.fish
 
 set -g c0 (set_color fabd2f)
 set -g c1 (set_color 83a598)
