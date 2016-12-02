@@ -86,8 +86,8 @@ done > $PANEL_FIFO &
 # wifi
 while true;
 do
-WIFI_SSID=$(iw wlp3s0 link | grep 'SSID' | sed 's/SSID: //' | sed 's/\t//')
-WIFI_SIGNAL=$(iw wlp3s0 link | grep 'signal' | sed 's/signal: //' | sed 's/ dBm//' | sed 's/\t//')
+WIFI_SSID=$(iw wlp12s0 link | grep 'SSID' | sed 's/SSID: //' | sed 's/\t//')
+WIFI_SIGNAL=$(iw wlp12s0 link | grep 'signal' | sed 's/signal: //' | sed 's/ dBm//' | sed 's/\t//')
 	echo L'\uf1eb' $WIFI_SSID '|' $WIFI_SIGNAL
 	sleep 10
 done > $PANEL_FIFO &
@@ -112,6 +112,6 @@ done > $PANEL_FIFO &
 
 . ~/.local/bin/panel_colors
 
-cat "$PANEL_FIFO" | ~/.local/bin/panel_bar | lemonbar -g x$PANEL_HEIGHT -f "$PANEL_FONT_FAMILY" -f "$ICON_FONT" -f "$ICON_FONT2" -F "$COLOR_FOREGROUND" -B "$COLOR_BACKGROUND" -u 2 | zsh &
+cat "$PANEL_FIFO" | ~/.local/bin/panel_bar | lemonbar -g x$PANEL_HEIGHT -f "$PANEL_FONT_FAMILY" -f "$ICON_FONT" -f "$ICON_FONT2" -F "$COLOR_FOREGROUND" -B "$COLOR_BACKGROUND" -u 2 -a 20 | zsh &
 
 wait
