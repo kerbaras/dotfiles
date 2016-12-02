@@ -1,7 +1,7 @@
 #!/bin/bash
 
-sudo pacman -S bspwm sxhkd compton rofi mpd mpc mpv ncmpcpp feh --noconfirm
-packer -S lemonbar-xft-git rxvt-unicode-256xresources urxvt-clipboard urxvt-resize-font-git urxvt-vtwheel --noconfirm
+sudo pacman -S bspwm sxhkd compton rofi ranger acpi zathura termite mpd mpc mpv ncmpcpp feh --noconfirm
+packer -S lemonbar-xft-git cava rxvt-unicode-256xresources urxvt-clipboard urxvt-resize-font-git urxvt-vtwheel --noconfirm
 
 ln -s ~/.dotfiles/config/bspwm ~/.config/
 ln -s ~/.dotfiles/config/sxhkd ~/.config/

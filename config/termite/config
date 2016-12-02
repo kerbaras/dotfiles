@@ -1,6 +1,6 @@
 [options]
 scrollback_lines = 10001
-font             = Fira Code 12
+font             = Fira Mono for Powerline 11
 clickable_url    = true
 browser          = google-chrome
 allow_bold       = true
