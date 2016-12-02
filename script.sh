@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo pacman -S bspwm sxhkd compton mpd mpc mpv ncmpcpp feh --noconfirm
+sudo pacman -S bspwm sxhkd compton rofi mpd mpc mpv ncmpcpp feh --noconfirm
 packer -S lemonbar-xft-git rxvt-unicode-256xresources urxvt-clipboard urxvt-resize-font-git urxvt-vtwheel --noconfirm
 
 ln -s ~/.dotfiles/config/bspwm ~/.config/
