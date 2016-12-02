@@ -25,8 +25,8 @@ rofi.bw			 0
 !                      ROFI Color theme
 ! ------------------------------------------------------------------------------
 rofi.color-enabled:      true
-! State                  'bg'     'fg'     'bgalt'  'hlbg'   'hlfg'
-rofi.color-window: #2f343f, #2f343f, #2f343f
-rofi.color-normal: #2f343f, #f3f4f5, #2f343f, #2f343f, #12ABCD
-rofi.color-active: #2f343f, #f3f4f5, #2f343f, #2f343f, #12ABCD12
-rofi.color-urgent: #2f343f, #f3f4f5, #2f343f, #2f343f, #12ABCD12
+! State            'bg'     'fg'     'bgalt'  'hlbg'   'hlfg'
+rofi.color-window: #282828, #282828, #282828
+rofi.color-normal: #282828, #ebdbb2, #282828, #282828, #458588
+rofi.color-active: #282828, #ebdbb2, #282828, #282828, #45858812
+rofi.color-urgent: #282828, #ebdbb2, #282828, #282828, #45858812
