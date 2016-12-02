@@ -549,6 +549,9 @@ call ApplyLocalSettings(expand('.'))
 " vim:foldmethod=marker:foldlevel=0
 
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+if has(“termguicolors”)
+    set termguicolors
+endif
 set background=dark    " Setting dark mode
 let g:airline_powerline_fonts = 1
 let g:gruvbox_italic=1
