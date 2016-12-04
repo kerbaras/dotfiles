@@ -1,10 +1,12 @@
-[optiont]
+[options]
 scrollback_lines = 10001
-font             = Fira Mono Medium for Powerline 10
 font			 = Powerline Extra Symbols 9
-font			 = FontAwesome 10
+font			 = Font Awesome 10
+font			 = Wuncon Siji 10
+font			 = Material Icons 10
+font			 = Fira Mono Medium for Powerline 10
 clickable_url    = true
-browser          = google-chrome
+browser          = google-chrome-stable
 allow_bold       = true
 allow_italic     = true
 visible_bell     = false

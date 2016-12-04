@@ -23,6 +23,6 @@ bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
  setxkbmap es &
- ~/.local/bin/panel &
+ $HOME/.config/polybar/launch.sh &
 # urxvt &
  compton -c &

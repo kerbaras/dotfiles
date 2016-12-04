@@ -60,8 +60,8 @@ XF86KbdBrightnessDown
 
 # quit bspwm
 super + alt + Escape
-	bspc quit && pkill panel
-
+	pkill panel && bspc quit
+ 
 # close and kill
 super + {_,shift + }w
 	bspc node -{c,k}
