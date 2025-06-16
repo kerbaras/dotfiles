@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch",
+      "Bash(ls:*)",
+      "Bash(touch:*)",
+      "Bash(kubectl:*)",
+      "Bash(curl:*)",
+      "Bash(cat:*)"
+    ]
+  },
+  "model": "opus"
+}

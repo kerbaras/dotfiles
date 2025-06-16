@@ -1,0 +1,84 @@
+[user]
+	email = matias.pierobonm@gmail.com
+	name = Matias Pierobon
+	signingkey = 41548A1B46BA2A25
+
+[core]
+    editor = nvim
+    compression = 9
+    preloadindex = true
+
+[alias]
+    co = checkout
+    cm = commit
+    st = status
+    br = branch
+    df = diff
+[url "git@github.com:"]
+    insteadOf = "gh:"
+
+[url "git@github.com:kerbaras/"]
+    insteadOf = "me:"
+
+[url "git@github.com/Kalshi/"]
+    insteadOf = "kalshi:"
+
+# Command Options
+[blame]
+    coloring = highlightRecent
+    date = relative
+[commit]
+	gpgsign = true
+    verbose = true
+[tag]
+	gpgSign = true
+    sort = -taggerdate
+[branch]
+    sort = -committerdate
+[pull]
+	rebase = true
+[push]
+	autoSetupRemote = true
+    followTags = true
+[diff]
+    context = 3  # less context in diffs
+    renames = copies  # detect copies as renames in diffs
+    interHunkContext = 10  # merge near hunks in diffs
+[log]
+    abbrevCommit = true  # short commits
+    graphColors = blue,yellow,cyan,magenta,green,red
+[status]
+    branch = true
+    short = true
+    showStash = true
+    showUntrackedFiles = all  # show individual untracked files
+[pager]
+    branch = false  # no need to use pager for git branch
+    tag = false
+[rebase]
+    autoStash = true
+    missingCommitsCheck = warn
+
+# Colors
+[color "blame"]
+    highlightRecent = black bold,1 year ago,white,1 month ago,default,7 days ago,blue
+
+[color "branch"]
+    current  = magenta
+    local    = default
+    remote   = yellow
+    upstream = green
+    plain    = blue
+
+[color "diff"]
+    meta       = black bold
+    frag       = magenta
+    context    = white
+    whitespace = yellow reverse
+    old        = red
+
+[color.decorate]
+    HEAD = red
+    branch = blue
+    tag = yellow
+    remoteBranch = magenta
