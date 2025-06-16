@@ -1,11 +1,8 @@
 # Kerb's Dotfiles 🧑🏻‍💻
 
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/5234011" alt="Kerbaras" width="200">
-</p>
-
-<p align="center">
-  <strong>{{ Description }}</strong>
+  <strong>This is a collection of useful configs and tools i use daily,
+  so better have it here to not loose them up.</strong>
 </p>
 
 <p align="center">
@@ -36,8 +33,9 @@
 
 ## 🚀 Quick Start
 
-> [!NOTE]
-> Make sure to set the theme to either dark or light in Brave Search settings, as the automatic setting will not work.
+> [!IMPORTANT]
+> This is my personal dotfiles, if you want to give it a try you should first fork this repo. 
+> The scripts here are highly opinionated and are expected to change your settings. **Use it at your own risk!**
 
 ### Prerequisites
 
@@ -69,15 +67,14 @@ cd ~/.dotfiles
 ## 🎨 Themes
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/palette/macchiato.png" />
+  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" alt="Catppuccin" height="120" />
+  &nbsp;
+  <a href="https://github.com/catppuccin">
+    <img src="https://github-readme-stats.vercel.app/api/pin?username=catppuccin&repo=catppuccin&theme=catppuccin_latte" />
+  </a>
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" alt="Catppuccin" width="100">
-
-  [![Catppuccin](https://github-readme-stats.vercel.app/api?username=catppuccin&theme=catppuccin_latteo)](https://github.com/catppuccin)
-</p>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/palette/macchiato.png" />
+  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/palette/macchiato.png" height="5em"/>
 </p>
 
 &nbsp;
@@ -117,14 +114,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
+- [Mathias Bynens](https://mathiasbynens.be/) and his amazing [dotfiles repository](https://github.com/mathiasbynens/dotfiles)
+- [Denis Gruzdev](https://cj.dog)'s configs at his [dotfiles repository](https://github.com/codingjerk/dotfiles)
 - All contributors who help make my Dotfiles better
-
----
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" />
-</p>
-
-<p <p align="center">
-  Made with ❤️ for the Dev Community by Kerb!
+  <br />
+  <small><italic>Made with ❤️ for the Dev Community by Kerb!</italic></small>
 </p>
